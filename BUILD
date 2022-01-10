@@ -1,5 +1,5 @@
 github_repo(
-  name = "pleasings-1-0",
+  name = "pleasings-1-0-0",
   repo = "thought-machine/pleasings",
   revision = "v1.0.0",
 )

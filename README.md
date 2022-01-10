@@ -1,15 +1,17 @@
 # Please experiments
 
+This repo just stores personal experiments about how [Please](https://please.build/)
+can be used in projects.
 
 ## JS
 
 ### Strapi (CMS)
 #### generate third party deps
 ```
-cat ./strapi/yarn.lock | plz run @pleasings-1-0//js/yarn_deps > ./third_party/js/BUILD
+cat ./strapi/yarn.lock | plz run @pleasings-1-0-0//js/yarn_deps > ./third_party/js/BUILD
 ```
 
-NB : we've to use the `pleasing:0.1.0` because other versions fail
+NB : we've to use the `pleasing:1.0.0` because other versions fail
 ```
 cat ./strapi/yarn.lock | plz run @pleasings//js/yarn_deps
 ```
